@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie's Corner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <img src="images/logo.png" alt="logo" height="70">
+        <h1>Foodie's Corner</h1>
+    </header>
+    <nav>
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="#items"><li>Order</li></a>
+            <a href="#contact"><li>Contact</li></a>
+            <a href="#about"><li>About</li></a>
+        </ul>
+    </nav>
+
+    <div id="order">
+        <section id="items">
+            <marquee behavior="scroll" direction="right" scrollamount="7">
+                <img class="img-all" src="images/burger.jpg" alt="">
+                <img class="img-all" src="images/drinks.jpg" alt="">
+                <img class="img-all" src="images/pizza.jpg" alt="">
+                <img class="img-all" src="images/fries.jpg" alt="">
+            </marquee>
+            <marquee class="board" behavior="scroll" direction="up" scrollamount=""1>
+                <h1>Todays's Special Offers</h1>
+                <br>
+                <h2>Pavbhaji</h2>
+                <p>Special discount 20%</p>
+                <br><br>
+                <h2>Pizza</h2>
+                <p>2 PIZZA @ 99 each</p>
+                <br><br>
+                <h2>Burger / Pizza</h2>
+                <br>
+                <h2>Order 1</h2>
+                <p>Get 30% off</p>
+                <br>
+                <h2>Order 2</h2>
+                <p>Get 50% off</p>
+                <br>
+                <h2>Order 3</h2>
+                <p>Get 70% off</p>
+            </marquee>
+            <marquee behavior="scroll" direction="left" scrollamount="7">
+                <img class="img-all" src="images/fruitjuice.jpg" alt="">
+                <img class="img-all" src="images/vadapav.jpg" alt="">
+                <img class="img-all" src="images/salad.jpg" alt="">
+                <img class="img-all" src="images/noodles.jpg" alt="">
+                <img class="img-all" src="images/pavbhaji.jpg" alt="">
+            </marquee>
+        </section>
+        <div id="menu">
+            <h1>Our Menu</h1>
+            <br>
+            <table class="content-table">
+                <thead>
+                  <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Pizza</td>
+                    <td>&#8377 100</td>
+                  </tr>
+                  <tr class>
+                    <td>Burger</td>
+                    <td>&#8377 60</td>
+                  </tr>
+                  <tr>
+                    <td>Vadapav</td>
+                    <td>&#8377 20</td>
+                  </tr>
+                  <tr>
+                    <td>Noodles</td>
+                    <td>&#8377 90</td>
+                  </tr>
+                  <tr>
+                    <td>Pavbhaji</td>
+                    <td>&#8377 80</td>
+                  </tr>
+                  <tr>
+                    <td>Fruit Juice</td>
+                    <td>&#8377 50</td>
+                  </tr>
+                  <tr>
+                    <td>Coldrinks</td>
+                    <td>&#8377 60</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <br><br><br>
+    </div>
+
+
+    <section id="contact">
+        <div class="formsection">
+            <form id="form" action="mailto:example@gmail.com" method="post" enctype="text/plain">
+                <h2>Get in Touch</h2>
+                <div class="contact-form">
+                <input type="text" name="Name" placeholder="Name" />
+                </div>
+                <div class="contact-form">
+                <input type="text" name="Email" placeholder="Email" />
+                </div>
+                <div class="contact-form">
+                <input type="text" name="Subject" placeholder="Subject" />
+                </div>
+                <div class="contact-form">
+                <textarea
+                    name="Message"
+                    placeholder="Your Message"
+                ></textarea>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+    <div id="find-us">
+        <h2>Find Us...</h2>
+        <p>View us on Google Maps</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d28074.99512919194!2d79.45685230000001!3d28.40795785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1647238388577!5m2!1sen!2sin" width="440" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/uQnKyOI4DCA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    </div>
+
+
+    <footer id="about">
+        <h1>About us</h1>
+        <hr>
+        <p>Foodie's Corner's mission is to provide smart and easy to use websites to the food delivery businesses such as fast food and takeaway to help independent venues to provide the same level of service as the global food ordering sites. We believe there is a mutual benefit in forging such relationship with the food delivery outlets and it will enable healthier growth for both us and our customers who will not be forced to offer a large portion of their income to global food ordering companies in order to access the similar service.</p>
+        <br>
+        <em>Copyright ©2022 FoodiesCorner.com. All rights reserved.</em>
+    </footer>
+</body>
+</html>
