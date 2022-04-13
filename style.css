@@ -51,7 +51,7 @@ nav ul a:hover {
 }
 
 /*Items section*/
-#items {
+#items, #items-grid {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     padding: 1.875rem 1.25rem;
@@ -69,6 +69,28 @@ nav ul a:hover {
 
 .img-all:hover, header img:hover, h1:hover{
     transform: scale(1.04);
+}
+
+.item h4 {
+    padding: 0.3125rem;
+    text-align: center;
+}
+
+.item button {
+    padding: 0.3125rem 1.875rem;
+    border: none;
+    outline: none;
+    background-color: #e64d2e;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    font-size: 1.125rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.item button:hover {
+    transform: scale(1.09);
 }
 
 .board {
@@ -226,7 +248,7 @@ nav ul a:hover {
     font-family: 'Courgette', cursive;
 }
 
-#about hr {
+hr {
     margin: 0.8rem 20rem;
 }
 
